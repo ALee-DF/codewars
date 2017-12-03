@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 function prefill(n, v) {
   let number = parseFloat(n)
   if (Number.isInteger(number) && number >= 0) {

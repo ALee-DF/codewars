@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 function isSolved(board) {
   if ((board[0][0] === 1 && board[0][1] === 1 && board[0][2] === 1) ||
       (board[1][0] === 1 && board[1][1] === 1 && board[1][2] === 1) ||

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 function findOdd(A) {
   var numbers = {}
   for (let i = 0; i < A.length; i++) {
@@ -10,7 +11,7 @@ function findOdd(A) {
   }
 
   for (const key in numbers) {
-    if (numbers[key] %2 === 1) {
+    if (numbers[key] % 2 === 1) {
       return Number(key)
     }
   }
