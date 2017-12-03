@@ -1,4 +1,5 @@
-function digPow(n, p){
+/* eslint-disable no-unused-vars */
+function digPow(n, p) {
   const digits = n.toString().split('').map(digit => Number(digit))
 
   let result = 0

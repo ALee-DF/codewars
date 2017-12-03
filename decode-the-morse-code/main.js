@@ -1,4 +1,6 @@
-decodeMorse = function(morseCode){
+/* eslint-disable no-unused-vars */
+/* global MORSE_CODE */
+const decodeMorse = function (morseCode) {
   const morseWordsArray = morseCode.split('   ')
   const translatedString = []
   for (let i = 0; i < morseWordsArray.length; i++) {
