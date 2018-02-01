@@ -8,4 +8,4 @@ function sumFibs(n) {
   return fibonacci(startArray, n).reduce((sum, number) => number % 2 === 0 ? sum + number : sum, 0)
 }
 
-// Ubuntu Test
+// Ubuntu Test 2
